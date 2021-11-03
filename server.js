@@ -53,7 +53,7 @@ app.post("/payment-token", async (req, res) => {
       }
     );
 
-    res.send(payment_response.data);
+    res.send(payment_response.data.paymentToken);
   } catch (error) {
     res.status(400);
     res.send({

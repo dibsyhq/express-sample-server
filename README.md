@@ -1,4 +1,4 @@
-# Dibsy Sample Server
+# Dibsy Sample Express Server
 
 Documentation: [https://docs.dibsy.one](https://docs.dibsy.one)
 
@@ -14,4 +14,11 @@ NAPS is a hosted checkout for NAPS branded cards. The endpoint responds with the
 
 **/hosted-checkout-link**
 
-If you wish to skip creating your own checkout and send your customer to Dibsy Hosted Checkout.
+If you wish to skip creating your own checkout and send your customer to Dibsy Hosted Checkout. 
+
+### Your .env file
+
+`DIBSY_SECRET_API_KEY` - Can be found on the dashboard. 
+`PORT`
+`DIBSY_API_ENDPOINT` - https://api.dibsy.one/v1
+`WEBHOOK_URL` - Where you want to receive web-hook notifications.
