@@ -1,7 +1,7 @@
 {
-  "name": "demo-server",
+  "name": "dibsy-express-sample-server",
   "version": "1.0.0",
-  "description": "Demo Server to recieve payment tokens",
+  "description": "Sample server to recieve payment tokens, hosted checkout links and NAPS link",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
