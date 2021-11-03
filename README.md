@@ -22,3 +22,5 @@ If you wish to skip creating your own checkout and send your customer to Dibsy H
 `PORT`
 `DIBSY_API_ENDPOINT` - https://api.dibsy.one/v1
 `WEBHOOK_URL` - Where you want to receive web-hook notifications.
+
+Start the application with `yarn start`
