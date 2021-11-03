@@ -26,4 +26,4 @@ If you wish to skip creating your own checkout and send your customer to Dibsy H
 
 `WEBHOOK_URL` - Where you want to receive web-hook notifications.
 
-Start the application with `yarn start`
+**Start the application with `yarn start`**
